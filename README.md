@@ -1,24 +1,24 @@
-# JDDC 大赛解决方案
+# JDDC-2018 Solutions of the second-prize team
 
-成绩：并列亚军，成绩排名第三，奖金10万元。
+Final Grade: Second Prize, with 10,000 RMB bonus.
 
-## 方案框架
+## Framwork
 
 初赛使用检索匹配模型，决赛使用生成模型，人工评估使用综合对话框架。详情请参见[设计文档](https://github.com/Dikea/JDDC-Dialog-Solution/blob/master/DeepLearner-%E5%AF%B9%E8%AF%9D%E7%B3%BB%E7%BB%9F%E8%AE%BE%E8%AE%A1%E6%96%87%E6%A1%A3.pdf)。
 
 ![image](chatbot.jpg)
 
-## 代码运行
+## Run the code
 
 > 数据较大400M，github容量限制，完整的模型代码传到百度云上，下载即可运行，[下载链接](https://pan.baidu.com/s/1NPYLJ04jE5i50LYLVvCRBQ)。
 
-### Step 1. 处理数据
+### Step 1. Pre-processing
 京东官方比赛的数据没有公开，这里使用了18年公开的一份[淘宝客服对话数据](https://github.com/cooelf/DeepUtteranceAggregation)。在目录E-commerce下，运行process.sh。
 
-### Step 2. 训练seq2seq模型
+### Step 2. Train model-Seq2seq
 在目录seq2seq_dialog下，训练单轮对话模型： `./single_turn_train.sh`，训练多轮对话模型：`./multi_turn_train.sh`
 
-### Step 3. 运行对话程序
+### Step 3. run the dialog program
 在根目录下，运行`python dialog_manage.py`，即可运行对话系统程序。
 
 运行示例：(注意seq2seq模型未训练，所以给出了一堆不知所以的回复，大家训练下seq2seq模型哦，不能偷懒)
