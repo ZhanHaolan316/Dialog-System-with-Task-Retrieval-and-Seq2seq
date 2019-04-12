@@ -1,6 +1,6 @@
 # JDDC-2018 Solutions of the second-prize team
 
-Final Grade: Second Prize, with 10,000 RMB bonus.
+Final Grade: **Second Prize**, with 10,000 RMB bonus.
 
 ## Framwork
 
