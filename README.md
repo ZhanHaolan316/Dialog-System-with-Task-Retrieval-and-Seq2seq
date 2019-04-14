@@ -2,6 +2,9 @@
 
 Final Grade: **Second Prize**, with 10,000 RMB bonus.
 
+**Team Member**: Hailong Huang[homepage](https://github.com/Dikea)
+                 Haolan Zhan[homepage](https://github.com/ZhanHaolan316)
+
 ## Framwork
 
 初赛使用检索匹配模型，决赛使用生成模型，人工评估使用综合对话框架。详情请参见[设计文档](https://github.com/ZhanHaolan316/Dialog-System-with-Task-Retrieval-and-Seq2seq/blob/master/DeepLearner-对话系统设计文档.pdf).
