@@ -2,8 +2,9 @@
 
 Final Grade: **Second Prize**, with 10,000 RMB bonus.
 
-**Team Member**: **Hailong Huang**[(homepage)](https://github.com/Dikea)  
-                 **Haolan Zhan**[(homepage)](https://github.com/ZhanHaolan316)
+**Team Member**:   
+**Hailong Huang**[(homepage)](https://github.com/Dikea)  
+**Haolan Zhan**[(homepage)](https://github.com/ZhanHaolan316)
 
 ## Framwork
 
